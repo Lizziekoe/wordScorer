@@ -23,7 +23,7 @@ $(document).ready(function() {
   var results = wordScorer(userInput);
 
   results.forEach(function(word) {
-    $(".order").append("<li>" + word "</li>");
+    $(".order").append("<li>" + word + "</li>");
   });
 
   $("#results").show();
